@@ -1,0 +1,8 @@
+services:
+  react-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.build
+    ports:
+      - "5174:5174"
+    container_name: news-aggregator
